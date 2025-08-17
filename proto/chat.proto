@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Chat {
+    int32 sendingPlayerID = 1;
+    int32 receivingPlayerID = 2;
+    string chatContent = 3;
+    bool spoiler = 4;
+}
